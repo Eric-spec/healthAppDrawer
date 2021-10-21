@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.rickie.healthappdrawer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.rickie.healthappdrawer.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.rickie.healthappdrawer.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_keepfit"
+        android:name="com.rickie.healthappdrawer.ui.keepfit.KeepfitFragment"
+        android:label="keepfit"
+        tools:layout="@layout/fragment_keepfit" />
+    <fragment
+        android:id="@+id/nav_diet"
+        android:name="com.rickie.healthappdrawer.ui.diet.dietFragment"
+        android:label="Diet"
+        tools:layout="@layout/fragment_diet" />
+    <fragment
+        android:id="@+id/nav_exercise"
+        android:name="com.rickie.healthappdrawer.ui.exercise.exerciseFragment"
+        android:label="Exercises"
+        tools:layout="@layout/fragment_exercise" />
+
+
+
+</navigation>
